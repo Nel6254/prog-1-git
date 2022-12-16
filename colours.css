@@ -1,7 +1,13 @@
 #main-main-title {
-    color: yellow; 
+    color: yellow;
+    font-size: 20;
+    font-weight: normal; 
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
 }
 
 .main-title {
     color: brown;
+    line-height: 1.5;
 }
