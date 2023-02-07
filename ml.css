@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+}
+
+.search__input {
+    width: 100%;
+}
+
+.search__button {
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 15px;
+    padding: 0 10px;
+}
+
+.search__image {
+    
+}

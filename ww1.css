@@ -1,0 +1,13 @@
+.box {
+   width: 200px;
+   height: 200px;
+   background-color: cadetblue;
+   background-image: url(World_War\ _1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.title {
+    color: brown;
+}
