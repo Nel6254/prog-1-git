@@ -5,6 +5,8 @@
 body {
     margin: 0;
     padding-top: 74px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -34,19 +36,14 @@ body {
 .search__button {
     border: none;
     position: absolute;
-    right: 1px;
+    right: 2px;
     top: 3px;
     height: 15px;
     padding: 0 5px;
 }
 
-.search__image {
-    
-}
-
-
 .nav {
-    padding-top: 10px;
+    padding-top: 10px 0;
     text-align: right;
 }
 
@@ -58,7 +55,7 @@ body {
 
 .nav__item:hover {
     transition: color 0.2s;
-    color: cadetblue;
+    color: yellow;
 }
 
 .hero {
@@ -82,6 +79,22 @@ body {
     color: whitesmoke;
     padding: 10px 25px;
     display: inline-block;
+    border-radius: 5px;
+}
+
+.Hero__button2 {
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: orange;
+    color: whitesmoke;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.Hero__button:hover {
+    transition: opacity 0.2s;
+    opacity: 0.75;
 }
 
 .Hero__button:first-child {
@@ -102,4 +115,108 @@ body {
 .hero_content {
     position: relative;
     z-index: 2;
+}
+
+.new {
+    padding: 25px 0;
+    color: black;
+}
+
+.news__read-more-wrapper {
+    width: 100%;
+    text-align: right;
+}
+
+.news__read-more {
+    color: coral;
+}
+
+.banner {
+    background-color: cyan;
+    padding: 10px 0 40px 0;
+}
+
+.slider {
+    width: 100%;
+    position: relative;
+    color: black;
+}
+
+.slider__image {
+    width: 100%;
+ }
+
+.slider__prev, .slider__next {
+    position: absolute;
+    top: calc(50% - 15px);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.slider__prev {
+    left: -20px;
+}
+
+.slider__next {
+    right: -20px;
+}
+
+.slider__prev:hover,
+.slider__next:hover {
+    transition: color 0.2s;
+    cursor: pointer;
+    color: blue;
+}
+
+.slider__dots {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 2;
+    text-align: center;
+}
+
+.slider__dot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider__dot:hover, .slider__dot.active {
+    transition: background-color 0.2s;
+    background-color: blue;
+}
+
+.content {
+    padding: 10px 0 25px 0;
+    color: darkgreen;
+}
+
+.content_list {
+    list-style-type: square;
+}
+
+.content_table {
+    border: 2px solid blueviolet;
+    width: 100%;
+}
+
+.content_table th, .content_table td {
+    border: 2px solid blueviolet;
+    padding: 10px;
+}
+
+.footer {
+    padding: 10px 0 25px 0;
+    background-color: burlywood;
+}
+
+.copyright {
+    background-color: chocolate;
+    padding: 10px 0;
 }
