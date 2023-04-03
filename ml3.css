@@ -142,8 +142,13 @@ body {
     color: black;
 }
 
-.slider__image {
+.image {    
     width: 100%;
+    display: none;
+ }
+
+ .image.active {
+    display: block;
  }
 
 .slider__prev, .slider__next {
