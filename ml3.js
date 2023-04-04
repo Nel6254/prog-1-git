@@ -18,7 +18,7 @@ const removeActiveFromAllImages =() => {
         activeIndex = activeIndex + 1
     }
 
-    image[activeIndex].classList.add('active')
+    images[activeIndex].classList.add('active')
  })
 
  prev.addEventListener('click', () => {
@@ -30,5 +30,5 @@ const removeActiveFromAllImages =() => {
         activeIndex = activeIndex -  1
     }
 
-    image[activeIndex].classList.add('active')
+    images[activeIndex].classList.add('active')
  })
