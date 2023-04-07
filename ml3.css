@@ -151,52 +151,6 @@ body {
     display: block;
  }
 
-.slider__prev, .slider__next {
-    position: absolute;
-    top: calc(50% - 15px);
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 1;
-}
-
-.slider__prev {
-    left: -20px;
-}
-
-.slider__next {
-    right: -20px;
-}
-
-.slider__prev:hover,
-.slider__next:hover {
-    transition: color 0.2s;
-    cursor: pointer;
-    color: blue;
-}
-
-.slider__dots {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 10px 0;
-    z-index: 2;
-    text-align: center;
-}
-
-.slider__dot {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid blue;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.slider__dot:hover, .slider__dot.active {
-    transition: background-color 0.2s;
-    background-color: blue;
-}
-
 .content {
     padding: 10px 0 25px 0;
     color: darkgreen;
