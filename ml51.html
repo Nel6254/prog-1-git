@@ -3,53 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" href="ml5.css">
     <title>MD5</title>
 </head>
 <body>
-    <a href="ml5.html"
-    target="_self">
-    <b>Atpakaļ uz sākumlapu</b>
-    </a>
-    <h1 style="color:cornflowerblue">
-        Pieslēgties
-    </h1>
-    <h4 style="color: grey;">
-        Ķīmijas laboratorijas uzskaites sistēma
-    </h4>
-    <form action="" validate="validate">
-        <label for="firstname">
-            Lietotājvārds
-        </label>
-        <br>
-        <input 
-        type="text"
-        name="firstname"
-        id="firstname"
-        placeholder="ievadīt lietotājvārdu"
-        required
-        >
-        <br>
-        <label for="firstname">
-            Parole
-        </label>
-        <br>
-        <input 
-        type="password"
-        name="password"
-        id="password"
-        placeholder="ievadīt paroli"
-        required
-        >
-        <br>
-        <button type="submit">
-            Pieslēgties
-        </button>
-    </form>
-    <p>Neesi vēl reģistrēts?
-    <a href="">
-    <b>izveidot profilu</b>
-    </a>
-    </p>
-    <button>Ziņot par kļūdu</button>
+    <div class="row">
+        <div class="col-xs-5">
+            <div class="image25">
+
+            </div>
+        </div>
+        <div class="col-xs-7">
+            <div class="link1">
+                <a href="ml5.html"
+                target="_self" class="link1-style">
+                <b>Atpakaļ uz sākumlapu</b>
+                </a>
+            </div>
+            <div class="text-block">
+                <h1 class="title-text3">
+                    Pieslēgties
+                </h1>
+                <p style="color: grey;">
+                    Ķīmijas laboratorijas uzskaites sistēma
+                </p>
+            </div>
+            <div class="form-block">
+                <form action="" validate="validate">
+                    <label for="firstname">
+                        Lietotājvārds
+                    </label>
+                    <br>
+                    <input 
+                    type="text"
+                    name="firstname"
+                    id="firstname"
+                    placeholder="ievadīt lietotājvārdu"
+                    required
+                    class="firstname"
+                    >
+                    <br>
+                    <label for="firstname">
+                        Parole
+                    </label>
+                    <br>
+                    <input 
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="ievadīt paroli"
+                    required
+                    >
+                    <br>
+                    <button type="submit" class="button3">
+                        Pieslēgties
+                    </button>
+                </form>
+            </div>
+            <p>Neesi vēl reģistrēts?
+            <a href="" class="link2">
+            <b>izveidot profilu</b>
+            </a>
+            </p>
+            <button class="button2">Ziņot par kļūdu</button>
+        </div>
+    </div>
 </body>
 </html>
