@@ -37,11 +37,11 @@ $(document).ready(function () {
 
             item += '<td>' +  
                 value.tips + '</td>';    
-                
+
             item += '</tr>'; 
         }); 
           
         //INSERTING ROWS INTO TABLE  
-        $('#table').append(item); 
+        $('#table-item').append(item); 
     }); 
 }); 
