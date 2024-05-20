@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Neehar peter",
+      "email": "peterk36@gmail.com",
+      "phone": "693-857-4120",
+      "investment": "$5,200"
+    },
+    {
+      "name": "Youssef Ibrahim",
+      "email": "youssef221@ymail.com",
+      "phone": "384-726-9150",
+      "investment": "$7,500"
+    },
+    {
+      "name": "Rajesh Kumar",
+      "email": "rajesh@outlook.com",
+      "phone": "246-135-7908",
+      "investment": "$3,250"
+    },
+    {
+      "name": "Mukesh Ratan",
+      "email": "ratanm.23@hotmail.com",
+      "phone": "570-912-6384",
+      "investment": "$10,300"
+    }
+  ]
