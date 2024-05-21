@@ -1,4 +1,4 @@
-fetch("vielas.json")
+fetch("inventars.json")
 .then(function(response){
 	return response.json();
 })
@@ -8,7 +8,7 @@ fetch("vielas.json")
 	for(let product of products){
 		out += `
 			<tr>
-				<td>${product.id}'> </td>
+				<td>${product.id}</td>
 				<td>${product.nosaukums}</td>
 				<td>${product.tips}</td>
 				<td>${product.apakstips}</td>
