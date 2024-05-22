@@ -1,11 +1,11 @@
 
-const button = document.querySelector("button");
+const buttons = document.getElementsByClassName("button4");
 
-button.addEventListener("click", updateButton);
+buttons.addEventListener("click", saraksti);
 
-function updateButton() {
+function saraksti() {
 
-var choice = file.value;
+var choice = buttons.value;
 
 switch (choice) {
   case "2":
