@@ -5,6 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        
+        {
+            "runtimeExecutable": "node",
             "name": "Launch Program",
             "program": "${workspaceFolder}/main4.js",
             "request": "launch",

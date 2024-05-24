@@ -7,7 +7,7 @@ buttons.addEventListener("click", () => {
 });
 
 function saraksti(choise) {
-    choise = choise.replace(" ", "").toLowerCase();
+ //   choise = choise.replace(" ", "").toLowerCase();
     const url = `${choise}.json`;
 
 fetch(url)
