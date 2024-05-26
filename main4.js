@@ -1,14 +1,18 @@
-const buttons = document.getElementsByClassName("button4");
+var buttons = document.getElementById("b4");
+var buttons = document.getElementById("b5");
+var buttons = document.getElementById("b6");
+
 
 buttons.addEventListener("click", () => {
 
-    const choise = buttons.value;
+    alert("Content = " + buttons.innerHTML);
+    var choise = buttons.value;
     saraksti(choise);
 });
 
 function saraksti(choise) {
  //   choise = choise.replace(" ", "").toLowerCase();
-    const url = `${choise}.json`;
+    var url = `${choise}.json`;
 
 fetch(url)
 .then(function(response){
