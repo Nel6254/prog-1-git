@@ -49,9 +49,9 @@
                 <tbody class="column-style" id="data-output">
                     <script>
                         fetch("visi.json")
-		.then(function(response){
-			return response.json();
-	})
+		                    .then(function(response){
+			                    return response.json();
+	                        })
 	.then(function(products){
 		let placeholder = document.querySelector("#data-output");
 		let out = "";
